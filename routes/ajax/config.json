@@ -1,0 +1,8 @@
+{
+    "posts": "/posts",
+    "ajax": "/ajax",
+    "singup": "/singup",
+    "upload": "/upload",
+    "login": "/login",
+    "edit": "/edit"
+}

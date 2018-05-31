@@ -1,0 +1,49 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "rebuild": "webpack --watch",
+        "autostart": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^2.6.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-runtime": "^6.26.0",
+        "bootstrap": "^4.1.0",
+        "compression": "^1.7.2",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.16.3",
+        "express-fileupload": "^0.4.0",
+        "mongoose": "^5.0.14",
+        "pg": "^7.4.1",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "socket.io": "^2.1.0",
+        "spdy": "^3.4.7",
+        "style-loader": "^0.20.3",
+        "webpack": "^4.5.0"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "/old_files/*",
+            "/NeverSite/*",
+            "package*.json",
+            "/admin/views/",
+            "/admin/js/",
+            "/admin/src/",
+            "webpack.config.js"
+        ]
+    },
+    "devDependencies": {
+        "css-loader": "^0.28.11",
+        "webpack-cli": "^2.0.14"
+    }
+}
